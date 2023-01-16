@@ -5,7 +5,7 @@
 * https://drive.google.com/file/d/1UnMjhvnGMcAT0vRmn_qZ9utKGLRVK7LW/view
 
 ## Description
-- This is a program using mySQL to quickly track employees and get information about them by combining other sql tables together.
+- This is application is meant to be used by running POSTMAN or Insomnia to run the routes to see how the database information is routed through a website for backend purposes. This application uses, mysql2, sequelize, and expressJS. I have used expressJS to listen for when the server is ran and to use our routes to get the information stored in the created database. Sequelize is used here to make the database models, seed information to the database to make the tables. I then use express to make get, post, put, and delete requests to display the necessary information back to the user while running these requests in either POSTMAN or Insomnia. 
 
 * [Ecommerce Backend Orm](https://github.com/Canadianfaller7/ecommerce-backend-orm/ "Named link title")
 
@@ -20,9 +20,14 @@ If your README is long, add a table of contents to make it easy for users to fin
 
 ## Installation
 - Install node.js to computer and run npm i to get all dependies installed to run the application
+- Run mysql in terminal by typing 'mysql -u root -p', run following commands: 'source db/schema.sql;', 'use ecommerce_db;' This is all based on how you have your environemnt set up.
+- In different Terminal, run 'node seeds/index.js' or 'npm run seed'. This will seed the information from the seeds folder to the database to be used.
+- In mysql terminal, you can now run the following commands: 'show tables;' or 'select * from table_name;'. Here you will change table_name to the name of table you want to get information from.
+- In different Terminal, run 'node server.js' or 'nodemon server.js' to run the server
+- Open up POSTMAN or Insomnia, put in whatever localhost you are running on EX: 'http://localhost:3001/api/categories' to start getting information. You may then start running other requests: 'GET', 'POST', 'PUT', or 'DELETE'
 
 ## Usage
-- Run 'node server.js' in terminal and answer the questions to view the current data stored inside the tables or create new information!
+- Basic application to show how Express, mysql, and Sequelize can be used for backend on a fake ecommerce site.
 * [Ecommerce Backend ORM](github.com/canadianfaller7/ecommerce-backend-orm/ "Named link title")
 * [Ecommerce Demo](https://drive.google.com/file/d/1UnMjhvnGMcAT0vRmn_qZ9utKGLRVK7LW/view/ "Named link title")
 
