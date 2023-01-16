@@ -2,7 +2,7 @@
 - [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 # Ecommerce video Demo
-* https://drive.google.com/file/d/1UnMjhvnGMcAT0vRmn_qZ9utKGLRVK7LW/view
+* [https://drive.google.com/file/d/1UnMjhvnGMcAT0vRmn_qZ9utKGLRVK7LW/view](https://watch.screencastify.com/v/BR22qmqbyjhvjelqveG5)
 
 ## Description
 - This is application is meant to be used by running POSTMAN or Insomnia to run the routes to see how the database information is routed through a website for backend purposes. This application uses, mysql2, sequelize, and expressJS. I have used expressJS to listen for when the server is ran and to use our routes to get the information stored in the created database. Sequelize is used here to make the database models, seed information to the database to make the tables. I then use express to make get, post, put, and delete requests to display the necessary information back to the user while running these requests in either POSTMAN or Insomnia. 
@@ -29,7 +29,7 @@ If your README is long, add a table of contents to make it easy for users to fin
 ## Usage
 - Basic application to show how Express, mysql, and Sequelize can be used for backend on a fake ecommerce site.
 * [Ecommerce Backend ORM](github.com/canadianfaller7/ecommerce-backend-orm/ "Named link title")
-* [Ecommerce Demo](https://drive.google.com/file/d/1UnMjhvnGMcAT0vRmn_qZ9utKGLRVK7LW/view/ "Named link title")
+* [Ecommerce Demo]([https://drive.google.com/file/d/1UnMjhvnGMcAT0vRmn_qZ9utKGLRVK7LW/view](https://watch.screencastify.com/v/BR22qmqbyjhvjelqveG5)/ "Named link title")
 
 ## Credits
 - N/A
